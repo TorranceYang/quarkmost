@@ -15,6 +15,7 @@ port of the open-source [Mattermost Mobile](https://github.com/mattermost/matter
 >   them reports about it.
 > - **Please support the original team** (see [below](#support-the-original-team)). For almost
 >   everyone, the official app is the right choice.
+> - **100% AI** If this bothers you, you should stay far, far way because I cannot vouch for _any_ of the code. 
 
 ## What's different from the official app
 
