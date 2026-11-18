@@ -28,9 +28,6 @@ source, so it should look and feel familiar. The differences:
 - **iPhone Duo support.** On the inner screen of the foldable iPhone, the channel list and the conversation
   sit side by side. Opening a thread slides the list away so the thread gets the full width. Folding and
   unfolding keeps your place, your draft and any open thread.
-- Smaller things:
-  - The keyboard behaves correctly after you open the app from a notification.
-  - A quiet spinner in the sidebar replaces the "Connecting…" banner.
 
 ## What's missing
 
