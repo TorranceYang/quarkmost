@@ -1,0 +1,17 @@
+[Unit]
+Description=Push router (splits pushes between Quarkmost and the official mobile app)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=mattermost
+ExecStart=/usr/bin/python3 /opt/quarkmost-push/router.py
+Environment=PORT=8067
+Environment=APP_PLATFORM=apple
+Environment=APP_UPSTREAM=http://127.0.0.1:8066
+Environment=DEFAULT_UPSTREAM=https://push-test.mattermost.com
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

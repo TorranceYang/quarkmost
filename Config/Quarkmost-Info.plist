@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Filled from Config/Base.xcconfig (and your Config/Local.xcconfig). -->
+	<key>QMBundleID</key>
+	<string>$(QM_BUNDLE_ID)</string>
+	<key>QMKeychainGroup</key>
+	<string>$(AppIdentifierPrefix)$(QM_BUNDLE_ID).shared</string>
+	<key>QMDefaultServerURL</key>
+	<string>$(QM_DEFAULT_SERVER_URL)</string>
+	<!-- Without this, iPhone apps are capped at 60Hz even on ProMotion screens. -->
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<!-- Only standard HTTPS/TLS is used, which is exempt from export paperwork. -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>INSendMessageIntent</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OpenSans-Regular.ttf</string>
+		<string>OpenSans-Italic.ttf</string>
+		<string>OpenSans-SemiBold.ttf</string>
+		<string>OpenSans-SemiBoldItalic.ttf</string>
+		<string>OpenSans-Bold.ttf</string>
+		<string>OpenSans-BoldItalic.ttf</string>
+		<string>Metropolis-Regular.ttf</string>
+		<string>Metropolis-SemiBold.ttf</string>
+		<string>compass-icons.ttf</string>
+	</array>
+</dict>
+</plist>

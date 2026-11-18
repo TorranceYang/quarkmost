@@ -1,0 +1,26 @@
+Quarkmost
+Copyright 2026 The Quarkmost authors
+
+This product is a derivative work of Mattermost Mobile
+(https://github.com/mattermost/mattermost-mobile), Copyright 2015-present Mattermost, Inc.,
+licensed under the Apache License, Version 2.0.
+
+Changes: Quarkmost is a rewrite of Mattermost Mobile in Swift/UIKit. Every source file in this
+repository was written for Quarkmost; screens, layout, styling, strings, themes and behaviour were
+ported by reading the original TypeScript/React Native code, so all of them should be considered
+modified from the original. The original license is in ThirdParty/mattermost-mobile-LICENSE.txt and
+the original NOTICE (third-party components of Mattermost Mobile) in
+ThirdParty/mattermost-mobile-NOTICE.txt.
+
+Bundled third-party assets:
+- Compass Icons font (compass-icons.ttf), Copyright Mattermost, Inc., Apache License 2.0
+  (https://github.com/mattermost/compass-icons).
+- emoji.json and themes.json, data files from Mattermost Mobile, Apache License 2.0.
+- Open Sans fonts, digitized data copyright 2010-2011 Google Corporation, Apache License 2.0
+  (as stated in the font files).
+- Metropolis fonts, Copyright 2016 Chris Simpson, SIL Open Font License 1.1
+  (ThirdParty/fonts/OFL-Metropolis.txt).
+
+Trademarks: "Mattermost" is a trademark of Mattermost, Inc. Quarkmost is not affiliated with,
+sponsored by, or endorsed by Mattermost, Inc. The Apache License does not grant any rights to
+Mattermost's names or logos (section 6), and none are used in this app's name or icon.

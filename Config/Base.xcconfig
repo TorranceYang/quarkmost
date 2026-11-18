@@ -1,0 +1,18 @@
+// Build settings for your own copy of Quarkmost.
+//
+// Don't edit these defaults: create Config/Local.xcconfig (it's gitignored) and override
+// what you need there. See docs/DEPLOY.md.
+//
+//   DEVELOPMENT_TEAM      = ABCDE12345                 // your Apple Developer Team ID
+//   QM_BUNDLE_ID          = com.yourname.quarkmost     // must be unique to you
+//   QM_DISPLAY_NAME       = Quarkmost                  // name under the home-screen icon
+//   QM_DEFAULT_SERVER_URL = https:/$()/chat.example.com // optional: pre-fills the login screen
+//
+// (xcconfig treats // as a comment, hence the https:/$()/ spelling for URLs.)
+
+DEVELOPMENT_TEAM =
+QM_BUNDLE_ID = com.example.quarkmost
+QM_DISPLAY_NAME = Quarkmost
+QM_DEFAULT_SERVER_URL =
+
+#include? "Local.xcconfig"

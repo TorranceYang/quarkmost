@@ -1,0 +1,13 @@
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.swiftpm/
+
+# Secrets: the Apple push key and the filled-in relay config never go in the repo
+*.p8
+server/push-router/mattermost-push-proxy.json
+
+# Your personal build settings (team ID, bundle ID, server). See docs/DEPLOY.md.
+Config/Local.xcconfig

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Filled from Config/Base.xcconfig (and your Config/Local.xcconfig). -->
+	<key>QMBundleID</key>
+	<string>$(QM_BUNDLE_ID)</string>
+	<key>QMKeychainGroup</key>
+	<string>$(AppIdentifierPrefix)$(QM_BUNDLE_ID).shared</string>
+	<key>QMDefaultServerURL</key>
+	<string>$(QM_DEFAULT_SERVER_URL)</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.usernotifications.service</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).NotificationService</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+{
+  "ListenAddress": "127.0.0.1:8066",
+  "ThrottlePerSec": 300,
+  "ThrottleMemoryStoreSize": 50000,
+  "ThrottleVaryByHeader": "X-Forwarded-For",
+  "EnableMetrics": false,
+  "SendTimeoutSec": 30,
+  "RetryTimeoutSec": 8,
+  "ApplePushSettings": [
+    {
+      "Type": "apple",
+      "ApplePushUseDevelopment": true,
+      "ApplePushTopic": "com.example.quarkmost",
+      "AppleAuthKeyFile": "./config/AuthKey_XXXXXXXXXX.p8",
+      "AppleAuthKeyID": "XXXXXXXXXX",
+      "AppleTeamID": "XXXXXXXXXX"
+    }
+  ],
+  "AndroidPushSettings": []
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<!-- Lets notifications show the sender's avatar, like Messages and the official app. -->
+	<key>com.apple.developer.usernotifications.communication</key>
+	<true/>
+	<!-- Shared with the notification extension so it can fetch avatars with your session. -->
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)$(QM_BUNDLE_ID).shared</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+[Unit]
+Description=mattermost-push-proxy holding the Apple push key for Quarkmost
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=mattermost
+WorkingDirectory=/opt/quarkmost-push/mattermost-push-proxy
+ExecStart=/opt/quarkmost-push/mattermost-push-proxy/bin/mattermost-push-proxy
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
