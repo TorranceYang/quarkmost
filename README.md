@@ -21,8 +21,7 @@ port of the open-source [Mattermost Mobile](https://github.com/mattermost/matter
 The app is mostly the same. The screens, layout, themes and behaviour were ported by reading the official app's
 source, so it should look and feel familiar. The differences:
 
-- **120Hz scrolling.** The message list is native UIKit, with message layout done off the main thread. It
-  scrolls at the full refresh rate on ProMotion iPhones.
+- **Performance.** Everything loads a lot faster. The message list is native UIKit, with message layout done off the main thread. It also scrolls at the full refresh rate on ProMotion iPhones.
 - **Swipe to reply.** Swipe a message to the left to reply to it. As in the official app, tapping a message
   also opens its thread.
 - **iPhone Duo support.** On the inner screen of the foldable iPhone, the channel list and the conversation
